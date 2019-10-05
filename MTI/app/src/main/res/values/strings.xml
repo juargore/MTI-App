@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MTI</string>
+    <string name="hint_user"><font size="14">  \@usuario</font></string>
+    <string name="hint_pass"><font size="14">   codigo_usuario</font></string>
+    <string name="title_activity_base">BaseActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

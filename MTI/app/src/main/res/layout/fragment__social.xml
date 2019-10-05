@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/btnFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#1C4786"
+        android:paddingBottom="8dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/facebook"
+        android:text="Button" />
+
+    <ImageButton
+        android:id="@+id/btnTwitter"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btnFacebook"
+        android:background="#1C4786"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/twitter"
+        android:text="Button" />
+
+    <WebView
+        android:id="@+id/wv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnFacebook"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <ProgressBar
+        android:id="@+id/progressBarT4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

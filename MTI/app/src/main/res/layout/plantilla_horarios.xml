@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:background="#1C4786"
+            android:layout_marginLeft="5dp"
+            android:layout_width="6dp"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="07:00 - 11:00"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtHora_Horario"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:text="NRC: 2134"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtNRC_Horario"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:textStyle="normal|bold"
+                    android:textColor="#1C4786" />
+            </LinearLayout>
+
+            <TextView
+                android:text="Matematicas Avanzadas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtMateria_Horario"
+                android:textStyle="normal|bold"
+                android:textSize="16sp"
+                android:textColor="#1C4786" />
+
+            <TextView
+                android:text="Salon Q305 - Maestro Luis Perez Perez"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtSalon_Horario" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

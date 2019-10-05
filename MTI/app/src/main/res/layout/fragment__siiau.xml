@@ -1,0 +1,136 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cucea.mti.Fragment_Perfil">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtCodigo_Perfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:text="KARDEX"
+            android:textColor="#1C4786"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/txtCodigo_Perfil"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#1C4786">
+
+            <TextView
+                android:id="@+id/txtNombrePrograma_Kardex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:text="Maestría en Tecnologías de Información"
+                android:textColor="#BFBFBF" />
+
+            <TextView
+                android:id="@+id/txtNombre_Kardex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/txtNombrePrograma_Kardex"
+                android:layout_centerHorizontal="true"
+                android:text="Ben Affleck Perez"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:id="@+id/ivPerfil_Kardex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/txtNombre_Kardex"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:src="@mipmap/iconuserbuscar" />
+
+            <TextView
+                android:id="@+id/txtPromedio_Kardex"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:text="88.34"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/txtCreditos_Kardex"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:text="109"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/txtPromedio_Kardex"
+                android:layout_alignLeft="@+id/txtPromedio_Kardex"
+                android:layout_alignRight="@+id/txtPromedio_Kardex"
+                android:layout_alignStart="@+id/txtPromedio_Kardex"
+                android:layout_below="@+id/txtPromedio_Kardex"
+                android:gravity="center_horizontal"
+                android:text="Promedio"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/txtCreditos_Kardex"
+                android:layout_alignLeft="@+id/txtCreditos_Kardex"
+                android:layout_alignRight="@+id/txtCreditos_Kardex"
+                android:layout_alignStart="@+id/txtCreditos_Kardex"
+                android:layout_below="@+id/txtCreditos_Kardex"
+                android:gravity="center_horizontal"
+                android:text="Creditos"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/listView_Kardex"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtCodigo_Perfil"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp" />
+
+    </RelativeLayout>
+</FrameLayout>

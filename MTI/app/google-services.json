@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "131974022069",
+    "firebase_url": "https://mti-udg-de700.firebaseio.com",
+    "project_id": "mti-udg-de700",
+    "storage_bucket": "mti-udg-de700.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131974022069:android:89abe55c9ce271a5",
+        "android_client_info": {
+          "package_name": "com.cucea.mti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131974022069-fs2iu75aj11c3uc6r6gih3c461ffi5cr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkF1QB9Ip08uQWYk2a4THbiZAqGLyEs6w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

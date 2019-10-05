@@ -1,0 +1,247 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cucea.mti.Fragment_Perfil">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:text="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView19"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="213346878"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/txtCodigo_Perfil"
+            android:textColor="#1C4786"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/textView8"
+            android:background="#1C4786">
+
+            <TextView
+                android:text="Ingeniero en Sistemas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/txtNombrePrograma_Perfil"
+                android:textColor="#BFBFBF"
+                android:layout_marginBottom="5dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/iconuserbuscar"
+                android:id="@+id/ivPerfil_Perfil"
+                android:layout_above="@+id/txtNombre_Perfil"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:text=" Info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/txtMore_Perfil"
+                android:textColor="#FFFFFF"
+                android:gravity="center_vertical"
+                android:layout_marginRight="8dp"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:layout_alignBottom="@+id/textView10" />
+
+            <TextView
+                android:text="+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/txtMore_Perfil"
+                android:layout_toStartOf="@+id/txtMore_Perfil"
+                android:id="@+id/textView10"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <TextView
+                android:text="Ben Affleck Perez"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtNombre_Perfil"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:layout_above="@+id/txtNombrePrograma_Perfil"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <TextView
+            android:text="Codigo de estudiante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:textColor="#2E2E2E"
+            android:layout_above="@+id/txtCodigo_Perfil"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="5dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txtCodigo_Perfil"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="8dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="match_parent"
+                android:background="#1C4786"
+                android:layout_marginLeft="18dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="4dp"></LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:text="Titulo Universitario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView24"
+                        android:textColor="#1C4786"
+                        android:textSize="15sp"
+                        android:textStyle="normal|bold" />
+
+                    <TextView
+                        android:text="por.definir@gmail.com"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtTitulo_Perfil"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:text="Email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView16"
+                        android:textColor="#1C4786"
+                        android:textSize="15sp"
+                        android:textStyle="normal|bold"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:text="por.definir@gmail.com"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtEmail_Perfil"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:text="Telefono Celular"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView25"
+                        android:textColor="#1C4786"
+                        android:textSize="15sp"
+                        android:layout_marginTop="8dp"
+                        android:textStyle="normal|bold" />
+
+                    <TextView
+                        android:text="1234567"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtCelular_Perfil"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:text="Modalidad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView23"
+                        android:textColor="#1C4786"
+                        android:textSize="15sp"
+                        android:layout_marginTop="8dp"
+                        android:textStyle="normal|bold" />
+
+                    <TextView
+                        android:text="Estudiante..."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtModalidad_Perfil"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:text="Fecha de nacimiento"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView15"
+                        android:textColor="#1C4786"
+                        android:textSize="15sp"
+                        android:layout_marginTop="8dp"
+                        android:textStyle="normal|bold" />
+
+                    <TextView
+                        android:text="dd mm yyyy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtFechaNacimiento_Perfil"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:text="CURP"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView22"
+                        android:textColor="#1C4786"
+                        android:textSize="15sp"
+                        android:layout_marginTop="8dp"
+                        android:textStyle="normal|bold" />
+
+                    <TextView
+                        android:text="curp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtCurp_Perfil"
+                        android:textSize="15sp" />
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

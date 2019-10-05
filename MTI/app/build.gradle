@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "com.cucea.mti"
+        minSdkVersion 15
+        targetSdkVersion 21
+    }
+
+    compileOptions {
+        encoding = 'ISO-8859-1'
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+
+    repositories {
+        jcenter()
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+    }
+
+}
+
+dependencies {
+    compile files('libs/devicecollector-sdk-2.5.jar')
+    compile files('libs/universal-image-loader-1.9.1.jar')
+    compile files('libs/Pushwoosh.jar')
+    compile 'com.android.support:support-v4:19.1.0'
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.google.firebase:firebase-core:9.2.0'                        // this line must be included to integrate with Firebase
+    compile 'com.google.firebase:firebase-messaging:9.2.0'                   // this line must be included to use FCM
+}
+
+apply plugin: 'com.google.gms.google-services'
